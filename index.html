@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benny Sound Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Marquee -->
+  <div class="marquee">
+    <p>🎤 Benny Sound Pro – Microphone Rentals • Speaker Repairs • Keyboard & Drum Services • Nationwide Delivery • Place your order via WhatsApp +2348133718214 🎧</p>
+  </div>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">
+      <span class="logo-icon">🎵</span> Benny Sound Pro
+    </div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#videos">Videos</a></li>
+      <li><a href="#contact">Order</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Benny Sound Pro</h1>
+      <p>Professional Sound Services – Rentals • Repairs • Instruments • Nationwide Delivery</p>
+      <button class="btn" onclick="openWhatsApp()">Place Order via WhatsApp</button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>We are a professional sound and musical equipment service brand providing reliable rental, repair, and technical sound solutions for churches, events, studios, and individuals. From microphones and speakers to keyboards and drums, we ensure quality sound delivery and equipment performance. Located in Benue State, we deliver nationwide!</p>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section" id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>Microphone Rentals</h3>
+        <p>Wired & wireless microphones for all events and studio needs.</p>
+      </div>
+      <div class="service-card">
+        <h3>Speaker Repairs & Maintenance</h3>
+        <p>Professional troubleshooting and repair for all speaker types.</p>
+      </div>
+      <div class="service-card">
+        <h3>Keyboard & Drum Services</h3>
+        <p>Setup, tuning, and repairs for keyboards and drum kits.</p>
+      </div>
+      <div class="service-card">
+        <h3>PA System & Live Sound</h3>
+        <p>Event setup, live mixing, and technical sound support.</p>
+      </div>
+      <div class="service-card">
+        <h3>Audio Consultation</h3>
+        <p>Professional advice for studio, live events, and sound setups.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio-section" id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio">
+      <img src="https://images.unsplash.com/photo-1581093588401-df962f1f352b" alt="Microphones">
+      <img src="https://images.unsplash.com/photo-1511376777868-611b54f68947" alt="Speakers">
+      <img src="https://images.unsplash.com/photo-1608493858571-89a6d689d746" alt="Keyboard">
+      <img src="https://images.unsplash.com/photo-1581091870620-923832195d77" alt="Drums">
+    </div>
+  </section>
+
+  <!-- Videos Section -->
+  <section class="videos-section" id="videos">
+    <h2>Our Videos</h2>
+    <div class="videos">
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video 1" allowfullscreen></iframe>
+      </div>
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/3JZ_D3ELwOQ" title="Video 2" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Order Section -->
+  <section class="contact-section" id="contact">
+    <h2>Place Your Order</h2>
+    <div class="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="tel" id="phone" placeholder="Your Phone Number" required>
+      <textarea id="service" rows="4" placeholder="Service Needed / Notes" required></textarea>
+      <button onclick="sendOrder()">Send Order</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Benny Sound Pro – Located in Benue State • Nationwide Delivery</p>
+    <p>Social Media: Instagram | TikTok | YouTube (placeholders)</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
